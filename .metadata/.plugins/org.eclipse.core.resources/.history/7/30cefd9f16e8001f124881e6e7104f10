@@ -8,9 +8,11 @@ public class ex08 {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 
+		double imposto;
+
 		Scanner sc = new Scanner(System.in);
 
-		double x, imposto;
+		double x;
 
 		x = sc.nextDouble();
 

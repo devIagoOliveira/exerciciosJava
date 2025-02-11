@@ -7,9 +7,9 @@ public class ex05 {
 
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
+		double valorTotal;
 		Scanner sc = new Scanner (System.in);
 		
-		double valorTotal;
 		int codigo, qtd;
 		
 		codigo = sc.nextInt();

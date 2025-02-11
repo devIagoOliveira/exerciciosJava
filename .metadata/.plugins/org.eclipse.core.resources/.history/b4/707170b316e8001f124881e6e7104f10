@@ -5,10 +5,11 @@ import java.util.Scanner;
 public class ex04 {
 
 	public static void main(String[] args) {
+		int duracao;
 
 		Scanner sc = new Scanner(System.in);
 
-		int horaInicial, horaFinal, duracao;
+		int horaInicial, horaFinal;
 
 		horaInicial = sc.nextInt();
 		horaFinal = sc.nextInt();
