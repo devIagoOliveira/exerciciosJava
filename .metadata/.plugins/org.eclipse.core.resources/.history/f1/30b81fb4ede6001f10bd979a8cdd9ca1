@@ -1,0 +1,25 @@
+package entradaDados;
+
+import java.util.Scanner;
+
+public class entradaDados {
+
+	public static void main(String[] args) {
+		Scanner sc = Scanner (System.in);
+		
+		String x;
+		
+		System.out.println("Digite seu nome:");
+		
+		x = sc.next();
+		 
+		System.out.println("Você digitou: " + x);
+		
+		
+		
+		
+		sc.close();
+
+	}
+
+}

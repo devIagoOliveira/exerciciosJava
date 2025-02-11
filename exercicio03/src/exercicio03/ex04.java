@@ -1,0 +1,29 @@
+package exercicio03;
+
+import java.util.Scanner;
+
+public class ex04 {
+
+	public static void main(String[] args) {
+		int duracao;
+
+		Scanner sc = new Scanner(System.in);
+
+		int horaInicial, horaFinal;
+
+		horaInicial = sc.nextInt();
+		horaFinal = sc.nextInt();
+
+		if (horaInicial >= horaFinal) {
+			duracao = horaFinal - horaInicial + 24;
+			System.out.println("O JOGO DUROU " + duracao + " HORA(S)");
+		} else {
+			duracao = horaFinal - horaInicial;
+			System.out.println("O JOGO DUROU " + duracao + " HORA(S)");
+		}
+
+		sc.close();
+
+	}
+
+}

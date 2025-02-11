@@ -1,0 +1,27 @@
+package exercicio02;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class ex02 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		Locale.setDefault(Locale.US);
+		// fórmula de raio = pi . raio²
+		
+		double pi = 3.14159;
+		
+		double raio;
+		
+		raio = sc.nextDouble();
+		
+		double A = pi * Mathpow(raio, 2);
+		
+		System.out.print("A=" + A);		
+		
+		sc.close();
+
+	}
+
+}

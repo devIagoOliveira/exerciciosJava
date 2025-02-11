@@ -1,0 +1,55 @@
+package entradaDados;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class entradaDados {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner (System.in);
+		
+		String x;
+		System.out.println("Digite seu nome:");
+		x = sc.next();
+		System.out.println("Você digitou: " + x);
+		System.out.println();
+		
+		int y;
+		System.out.println("Digite sua idade:");
+		y = sc.nextInt();
+		System.out.println("Você digitou: " + y);
+		System.out.println();
+		
+		double z;
+		System.out.println("Digite sua altura:");
+		z = sc.nextDouble();
+		System.out.printf("Você digitou: %.2f%n",  z);
+		System.out.println();
+		
+		char w;
+		System.out.println("Digite seu sexo (M ou F):");
+		w = sc.next().charAt(0);
+		System.out.println("Você digitou: " +  w);
+		System.out.println();
+		
+		//ler vários dados na mesma linha
+		String s;
+		int i;
+		double d;
+		System.out.println("Digite na mesma linha seu nome, idade e altura:");
+		s = sc.next();
+		i = sc.nextInt();
+		d = sc.nextDouble();
+		System.out.println("Você digitou: ");
+		System.out.println(s);
+		System.out.println(i);
+		System.out.printf("%.2f%n", d);
+		System.out.println();
+		
+		
+		sc.close();
+		
+	}
+
+}
