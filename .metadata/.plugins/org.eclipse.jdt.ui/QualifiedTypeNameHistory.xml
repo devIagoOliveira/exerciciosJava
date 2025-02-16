@@ -4,7 +4,8 @@
     <fullyQualifiedTypeName name="Entities.retangle"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="Entities.Aluno"/>
+    <fullyQualifiedTypeName name="Util.CurrencyConverter"/>
     <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="Util.CurrencyConverter"/>
+    <fullyQualifiedTypeName name="entities.Account"/>
 </qualifiedTypeNameHistroy>
