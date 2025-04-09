@@ -14,6 +14,8 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 		DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
+		while(true) {
+		
 		try {
 			System.out.print("Room number: ");
 			int roomNumber = sc.nextInt();
@@ -40,7 +42,9 @@ public class Program {
 		} catch (RuntimeException e) {
 			System.out.println("Invalid input data");
 		}
-
+		
 		sc.close();
+		
+		}
 	}
 }
